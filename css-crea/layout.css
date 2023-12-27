@@ -1,0 +1,118 @@
+nav, nav ul, nav li {
+    padding: 1em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    flex-wrap: wrap;
+    padding: 10px 2em 10px 2em ;
+}
+.consignes {
+	display: flex;
+	justify-content: start;
+
+	padding: 1em;
+}
+
+.consignes article {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    text-align: justify;
+
+}
+
+.consignes img {
+    padding-right: 1em;
+}
+
+.interdictions {
+	display: flex;
+	justify-content: start;
+
+	padding: 1em;
+}
+
+.interdictions article {
+	display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    text-align: justify;
+}
+
+
+body > header ul a {
+    padding: 10px;
+}
+
+.shell_title {
+    display: flex;
+    justify-content: center;
+}
+
+#shell-container {
+    width: 80%;
+    margin: 20px auto;
+
+    background-color: #333;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: monospace;
+    color: #52b69a;
+
+}
+
+#output {
+    margin-bottom: 10px;
+}
+
+#shell-input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 5px;
+
+    border: none;
+    border-radius: 10px;
+	color: #FFFFFF;
+	background-color: rgba(255, 255, 255, 0.2);
+
+    font-size: 20px;
+}
+
+article {
+    padding: 1em;
+}
+
+.documentation {
+    display: flex;
+    justify-content: center;
+
+}
+
+.documentation > article > div, h2, p, input {
+    padding: 10px;
+}
+
+
+footer {
+	max-height: 30vh;
+	padding: 2em;
+}
+
+footer ul {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+
+}
+
+
+.langue .name {
+    display: flex;
+    flex-direction: column;
+} 

@@ -1,0 +1,162 @@
+@charset "UTF-8";
+
+/*********************************************/
+/* RESET */
+*, *::before, *::after
+	{
+	box-sizing: border-box;
+	margin-top: 0;
+	margin: 0;
+	font-family: 'Source Sans Pro', sans-serif;
+	}
+/*********************************************/
+body {
+    background-color:rgb(29, 28, 28);
+    color: #ffffff;
+}
+
+
+.logo {
+	font-family: 'Titillium Web', sans-serif;
+	font-weight: 900;
+	font-size: 3em;
+	filter: brightness(1.5);
+
+	color: #327763;
+}
+
+body > header nav {
+	background-color:rgba(255, 255, 255, 0.05);
+
+	box-shadow: 0px 0px 40px 2px rgba(0,0,0,0.4);
+
+	border-bottom-left-radius: 2em;
+	border-bottom-right-radius: 2em;
+}
+
+body > header ul a {
+	font-family: 'Titillium Web', sans-serif;
+	letter-spacing: 1px;
+
+	list-style: none;
+	text-decoration: none;
+
+	background-color:rgba(0, 0, 0, 0.06);
+
+	color: #52b69a;
+	
+	font-size: medium;
+
+	border-style: solid;
+	border-radius: 15px;
+	border-width: 2px;
+	border-bottom: 5px solid #52b69a;
+}
+
+body > header ul a:hover {
+	border-color: #000000;
+}
+
+.consignes {
+	margin-top: 15px;
+}
+
+.consignes article {
+	max-width: 150vh;
+
+	background-color:#333 ;
+	border-radius: 10px;
+}
+
+article p {
+	font-size: 20px;
+}
+
+.interdictions article {
+	max-width: 150vh;
+
+	background-color:#333 ;
+	border-radius: 10px;
+}
+
+.interdictions article ul > li {
+	list-style: none;
+	font-size: 20px;
+}
+
+.shell_title {
+	color: #52b69a;
+}
+
+
+.documentation {
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+
+.documentation article {
+	max-width: 150vh;
+
+	background-color:#333 ;
+	border-radius: 10px;
+}
+
+table {
+	border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+th, td {
+	min-width: 150;
+	text-align: center;
+	border:2px solid #FFFFFF;
+
+	padding: 2em;
+}
+
+
+.table_class {
+	overflow-x: auto;
+}
+
+
+span{
+	color:#52b69a ;
+}
+
+.documentation h1, h2 {
+    font-family: 'Titillium Web', sans-serif;
+	font-size: 2em;
+}
+
+#input_flag {
+	font-size: 15px;
+    border: none;
+
+    border-radius: 10px;
+	color: #FFFFFF;
+	background-color: rgba(255, 255, 255, 0.2);
+
+	margin-top: 10px;
+    padding: 12px;
+    width: 100%;
+
+    text-align: center;
+
+}
+
+
+footer {
+	background-color: #52b69a;
+	border-top-left-radius: 1em;
+	border-top-right-radius: 1em;
+}
+
+footer ul li {
+	list-style: none;
+	font-size: 20px;
+	font-family: 'Titillium Web', sans-serif;
+	color: #333;
+}
