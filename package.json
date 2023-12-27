@@ -1,0 +1,11 @@
+{
+  "name": "portfolio-thorel",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "start": "node script.js"
+  },
+  "dependencies": {
+    // Vos dépendances ici
+  }
+}
